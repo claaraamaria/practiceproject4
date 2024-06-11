@@ -1,7 +1,7 @@
 name: Output event details
-on: workflow_dispatch
+on: issues
 jobs:
-  setup:
+  output-info:
     runs-on: ubuntu-latest
     steps:
       - name: Output Github context
